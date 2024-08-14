@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+#outer {
+width: 1000px;
+height: 1000px;
+}
+
+#r1 {
+width: 1000px;
+height: 400px;
+}
+
+#r1c1 {
+width: 396px;
+height: 400px;
+background-color: red;
+float: left;
+}
+
+#r1c1box {
+width: 300px;
+height: 300px;
+margin: 50px;
+background-color: white;
+border: 3px solid black;
+}
+
+#r1c2 {
+width: 65px;
+height: 396px;
+border: 1px solid black;
+float: left;
+}
+
+#r1c3 {
+width: 65px;
+height: 396px;
+border: 1px solid black;
+float: left;
+}
+
+#r1c4 {
+width: 65px;
+height: 396px;
+border: 1px solid black;
+float: left;
+}
+
+#r1c5 {
+width: 396px;
+height: 400px;
+background-color: green;
+float: left;
+border-left: 3px solid black;
+}
+
+#r1c2r1,
+#r1c2r2,
+#r1c2r3,
+#r1c2r4,
+#r1c2r5,
+#r1c2r6 {
+width: 65px;
+height: 64px;
+border: 1px solid black;
+}
+
+#r1red1 {
+width: 200px;
+height: 70px;
+margin: 50px;
+}
+
+#token1,
+#token3 {
+width: 70px;
+height: 70px;
+border: 3px solid black;
+float: left;
+}
+
+#token2,
+#token4 {
+width: 70px;
+height: 70px;
+border: 3px solid black;
+
+float: right;
+}
+
+#r2 {
+width: 1000px;
+height: 200px;
+}
+
+#r2c1 {
+width: 400px;
+height: 200px;
+float: left;
+}
+#r2c1r1{
+width: 400px;
+height: 64px;
+}
+#r2c1r1c1,#r2c1r1c2,#r2c1r1c3,#r2c1r1c4,#r2c1r1c5,#r2c1r1c6{
+width: 64px;
+height: 64px;
+float: left;
+border: 1px solid black;
+}
+#r2c2{
+width: 200px;
+height: 200px;
+/* background-color: goldenrod; */
+float: left;
+}
+#r2c3{
+width: 400px;
+height: 200px;
+float: left;
+}
+
+#vistory{
+   
+    border-left: 100px solid red;
+    border-top: 100px solid green;
+    border-right: 100px solid yellow ;
+    border-bottom: 100px solid blue;
+
+}
+
+</style>
+</head>
+
+<body>
+<div id="outer">
+<div id="r1">
+<div id="r1c1">
+<div id="r1c1box">
+<div id="r1red1">
+<div id="token1" style="background-color: red;"></div>
+<div id="token2" style="background-color: red;"></div>
+</div>
+<div id="r1red1">
+<div id="token3" style="background-color: red;"></div>
+<div id="token4" style="background-color: red;"></div>
+</div>
+</div>
+</div>
+<div id="r1c2">
+<div id="r1c2r1"></div>
+<div id="r1c2r2"></div>
+<div id="r1c2r3"></div>
+<div id="r1c2r4"></div>
+<div id="r1c2r5"></div>
+<div id="r1c2r6"></div>
+</div>
+<div id="r1c3">
+<div id="r1c2r1"></div>
+<div id="r1c2r2" style="background-color: green;"></div>
+<div id="r1c2r3" style="background-color: green;"></div>
+<div id="r1c2r4" style="background-color: green;"></div>
+<div id="r1c2r5" style="background-color: green;"></div>
+<div id="r1c2r6" style="background-color: green;"></div>
+</div>
+<div id="r1c4">
+<div id="r1c2r1"></div>
+<div id="r1c2r2" style="background-color: green;"></div>
+<div id="r1c2r3"></div>
+<div id="r1c2r4"></div>
+<div id="r1c2r5"></div>
+<div id="r1c2r6"></div>
+</div>
+<div id="r1c5">
+<div id="r1c1box">
+<div id="r1red1">
+<div id="token1" style="background-color: green;"></div>
+<div id="token2" style="background-color: green;"></div>
+</div>
+<div id="r1red1">
+<div id="token3" style="background-color: green;"></div>
+<div id="token4" style="background-color: green;"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="r2">
+<div id="r2c1">
+<div id="r2c1r1">
+<div id="r2c1r1c1"></div>
+<div id="r2c1r1c2" style="background-color: red;"></div>
+<div id="r2c1r1c3"></div>
+<div id="r2c1r1c4"></div>
+<div id="r2c1r1c5"></div>
+<div id="r2c1r1c6"></div>
+</div>
+<div id="r2c1r2">
+<div id="r2c1r1c1"></div>
+<div id="r2c1r1c2" style="background-color: red;"></div>
+<div id="r2c1r1c3" style="background-color: red;"></div>
+<div id="r2c1r1c4" style="background-color: red;"></div>
+<div id="r2c1r1c5" style="background-color: red;"></div>
+<div id="r2c1r1c6" style="background-color: red;"></div>
+</div>
+<div id="r2c1r1">
+<div id="r2c1r1c1"></div>
+<div id="r2c1r1c2"></div>
+<div id="r2c1r1c3"></div>
+<div id="r2c1r1c4"></div>
+<div id="r2c1r1c5"></div>
+<div id="r2c1r1c6"></div>
+</div>
+</div>
+<div id="r2c2">
+    <div id="vistory" style="width: 0px; height: 0px;"></div>
+</div>
+<div id="r2c3">
+<div id="r2c1r1">
+<div id="r2c1r1c1"></div>
+<div id="r2c1r1c2"></div>
+<div id="r2c1r1c3"></div>
+<div id="r2c1r1c4"></div>
+<div id="r2c1r1c5"></div>
+<div id="r2c1r1c6"></div>
+</div>
+<div id="r2c1r2">
+<div id="r2c1r1c1" style="background-color: yellow;"></div>
+<div id="r2c1r1c2" style="background-color: yellow;"></div>
+<div id="r2c1r1c3" style="background-color: yellow;"></div>
+<div id="r2c1r1c4" style="background-color: yellow;"></div>
+<div id="r2c1r1c5" style="background-color: yellow;"></div>
+<div id="r2c1r1c6"></div>
+</div>
+<div id="r2c1r1">
+<div id="r2c1r1c1"></div>
+<div id="r2c1r1c2"></div>
+<div id="r2c1r1c3"></div>
+<div id="r2c1r1c4"></div>
+<div id="r2c1r1c5" style="background-color: yellow;"></div>
+<div id="r2c1r1c6"></div>
+</div>
+</div>
+</div>
+<div id="r1">
+<div id="r1c1" style="background-color: blue;">
+<div id="r1c1box">
+<div id="r1red1">
+<div id="token1" style="background-color: blue;"></div>
+<div id="token2" style="background-color: blue;"></div>
+</div>
+<div id="r1red1">
+<div id="token3" style="background-color:blue;"></div>
+<div id="token4" style="background-color:blue;"></div>
+</div>
+</div>
+</div>
+<div id="r1c2">
+<div id="r1c2r1"></div>
+<div id="r1c2r2"></div>
+<div id="r1c2r3"></div>
+<div id="r1c2r4"></div>
+<div id="r1c2r5" style="background-color: blue;"></div>
+<div id="r1c2r6"></div>
+</div>
+<div id="r1c3" >
+<div id="r1c2r1" style="background-color: blue;"></div>
+<div id="r1c2r2" style="background-color: blue;"></div>
+<div id="r1c2r3" style="background-color: blue;"></div>
+<div id="r1c2r4" style="background-color: blue;"></div>
+<div id="r1c2r5"style="background-color: blue;" ></div>
+<div id="r1c2r6" ></div>
+</div>
+<div id="r1c4">
+<div id="r1c2r1"></div>
+<div id="r1c2r2" ></div>
+<div id="r1c2r3"></div>
+<div id="r1c2r4"></div>
+<div id="r1c2r5"></div>
+<div id="r1c2r6"></div>
+</div>
+<div id="r1c5" style="background-color: yellow;">
+<div id="r1c1box">
+<div id="r1red1">
+<div id="token1" style="background-color: yellow;"></div>
+<div id="token2" style="background-color: yellow;"></div>
+</div>
+<div id="r1red1">
+<div id="token3" style="background-color: yellow;"></div>
+<div id="token4" style="background-color: yellow;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
